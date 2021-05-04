@@ -1,0 +1,31 @@
+/*
+
+Left Sidebar Layout
+
+*/
+
+.woocommerce #sidebar-area{
+    float:left;
+    width:30%;
+    padding:30px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+.woocommerce #main-content{
+    width:100%;
+    padding:0;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}
+
+.woocommerce #content {
+    width:70%;
+    padding:30px; 
+    float:right;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;  
+}

@@ -1,0 +1,29 @@
+/*
+
+No Sidebar Layout
+
+*/
+
+.woocommerce #sidebar-area{
+    display:none;
+}
+
+.woocommerce #main-content,
+.woocommerce #content{
+  width: 100%;
+  margin-top: 10px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.woocommerce.single #main-content,
+.woocommerce.single #content{
+  width: 100%;
+  margin-top: 44px;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

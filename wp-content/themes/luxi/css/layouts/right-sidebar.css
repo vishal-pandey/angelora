@@ -1,0 +1,22 @@
+/*
+
+Right Sidebar Layout
+
+*/
+
+#sidebar-area{
+    float:right;
+    width:30%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#main-content{
+    width:70%;
+    float:left;
+    padding-right:60px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}

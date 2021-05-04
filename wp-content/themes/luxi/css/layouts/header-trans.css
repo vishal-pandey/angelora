@@ -1,0 +1,41 @@
+/*--------------------------------------------------------------
+# Header Style 1
+--------------------------------------------------------------*/
+
+.site-header{
+  width: 100%;
+}
+
+.header-row{
+  width:100%;
+  padding-left: 2%;
+  padding-right: 2%;
+  box-sizing: border-box;
+}
+
+.header-row::after {
+   content: " ";
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.header-block{
+  width: 33.33%;
+  width: calc(100% / 3);
+  height:auto;
+  float:left;
+  box-sizing: border-box;
+}
+
+.header-block.left{
+  text-align:left;
+}
+
+.header-block.middle{
+  text-align:center;
+}
+
+.header-block.right{
+  text-align:right;
+}

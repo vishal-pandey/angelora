@@ -1,0 +1,23 @@
+/*
+
+Left Sidebar Layout
+
+*/
+
+#sidebar-area{
+    float:left;
+    width:30%;
+    padding-right:30px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+
+#main-content{
+    width:70%;
+    float:right;
+    padding-left:30px; 
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
